@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(242,210,172);
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100%;
+    color: rgb(76 53 15);
+}
+
+#profile {
+    margin-top: min(2vw, 2vh);
+    text-align: center;
+}
+
+h1{
+    font-size: max(4vw, 2vh);
+    margin: 0px;
+}
+
+#profile_photo {
+    width: max(20vw, 10vh);
+    max-width: 200px;
+    border-radius: 50%;
+    border: solid rgb(76 53 15) .5vw;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    text-align: center;
+    padding: min(1vw, 1vh);
+    display: block;
+}
+
+nav ul li{
+    /* text-decoration: none; */
+    list-style-type: none;
+    display: inline;
+}
+
+.nav_item {
+    cursor: pointer;
+    display: inline;
+    border: none;
+    padding: min(2vh, 2vw);
+    background-color: rgb(76 53 15);
+    color: white;
+    font-size: max(1.5vw, 1.5vh);
+    border-radius: max(1vw, 1vh);
+    margin: 0vh 1vw;
+}
+
+#display {
+    text-align: left;
+    font-size: max(1.5vw, 1.5vh);
+    line-height: 150%;
+}
+
+h3{
+    margin: 1%;
+}
+
+.exterior_link {
+    text-decoration: none;
+    color: black;
+}
+
+.contact_list{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.contact_list li{
+    display: inline;
+    padding: min(0.5vh, 0.5vw);
+    margin: min(0.5vh, 0.5vw);
+    float: left;
+}
+
+.contact_link{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: white;
+    padding: max(1vh, 1vw);
+    margin: min(1vh, 1vw);
+    border-radius: min(10vw, 10vh);
+    font-size: max(1.4vw, 1.4vh);
+    white-space: nowrap;
+}
+
+/* All links background */
+#mail{
+    background-color: rgb(234,67,53);
+}
+#linkedin{
+    background-color: rgb(0,119,181);
+}
+#git{
+    background-color: rgb(0,0,0);
+}
+#chef{
+    background-color: rgb(103,51,19);
+}
+#forces{
+    background-color: rgb(64,91,151);
+}
+#rank{
+    background-color: rgb(43,185,92);
+}
