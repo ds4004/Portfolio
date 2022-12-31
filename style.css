@@ -63,7 +63,12 @@ h3{
 
 .exterior_link {
     text-decoration: none;
+    color: rgb(76 53 15);
+}
+
+.git_link{
     color: black;
+    padding: max(0.1vh, 0.1vw);
 }
 
 .contact_list{
