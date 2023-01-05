@@ -17,7 +17,7 @@ I am currently a B.tech student at Sardar Vallabhbhai National Institute of Tech
 
 ## Website link
 
-https://ds4004.github.io/Portfolio/index.html
+https://ds4004.github.io/Portfolio/
 
 
 ## 🛠 Skills
